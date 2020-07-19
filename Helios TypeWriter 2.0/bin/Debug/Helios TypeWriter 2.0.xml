@@ -1,0 +1,161 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Helios TypeWriter 2.0
+</name>
+</assembly>
+<members>
+<member name="T:Helios_TypeWriter_2._0.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.about">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.action_paste">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.action_print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.action_save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.action_stop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.arrow_ew">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.bold">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.bullet_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.bullets">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.calendar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.cut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.file_font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.folder_page">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.font_color">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.GitHub_Mark_32px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.icon_history">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.icon_redo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.icons8_align_center_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.icons8_align_left_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.icons8_align_right_50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.italic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.page">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.page_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.text_fit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.underline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

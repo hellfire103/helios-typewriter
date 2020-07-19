@@ -1,0 +1,12 @@
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\bin\Debug\Helios TypeWriter 2.0.exe.config
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\bin\Debug\Helios TypeWriter 2.0.exe
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\bin\Debug\Helios TypeWriter 2.0.pdb
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\bin\Debug\Helios TypeWriter 2.0.xml
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\obj\Debug\Helios TypeWriter 2.0.vbprojAssemblyReference.cache
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\obj\Debug\Helios_TypeWriter_2._0.frmMain.resources
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\obj\Debug\Helios_TypeWriter_2._0.Resources.resources
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\obj\Debug\Helios TypeWriter 2.0.vbproj.GenerateResource.cache
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\obj\Debug\Helios TypeWriter 2.0.vbproj.CoreCompileInputs.cache
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\obj\Debug\Helios TypeWriter 2.0.exe
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\obj\Debug\Helios TypeWriter 2.0.xml
+G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\obj\Debug\Helios TypeWriter 2.0.pdb
