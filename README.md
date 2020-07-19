@@ -1,4 +1,4 @@
 # Helios TypeWriter
-A basic plain text and code editor built in Python.
+A basic plain text and code editor built in Visual Basic .NET.
 
-Use TypeWriter to write documents, make cool ASCII art, edit your code and change whatever you don't like about it with ease. Enjoy!
+Use TypeWriter to write documents and make cool ASCII art with ease. Enjoy!
