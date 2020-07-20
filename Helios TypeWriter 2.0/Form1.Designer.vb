@@ -712,6 +712,7 @@ Partial Class frmMain
         '
         'rtbEditor
         '
+        Me.rtbEditor.AcceptsTab = True
         Me.rtbEditor.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
