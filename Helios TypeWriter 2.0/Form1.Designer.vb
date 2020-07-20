@@ -66,6 +66,7 @@ Partial Class frmMain
         Me.TypeWriterOnGitHubToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ViewLicenseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
@@ -381,7 +382,7 @@ Partial Class frmMain
         '
         'HelpToolStripMenuItem
         '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TypeWriterOnGitHubToolStripMenuItem, Me.ViewLicenseToolStripMenuItem, Me.AboutToolStripMenuItem})
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TypeWriterOnGitHubToolStripMenuItem, Me.ViewLicenseToolStripMenuItem, Me.AboutToolStripMenuItem, Me.HelpToolStripMenuItem1})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
         Me.HelpToolStripMenuItem.Text = "Help"
@@ -406,6 +407,14 @@ Partial Class frmMain
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(188, 22)
         Me.AboutToolStripMenuItem.Text = "About"
+        '
+        'HelpToolStripMenuItem1
+        '
+        Me.HelpToolStripMenuItem1.Image = Global.Helios_TypeWriter_2._0.My.Resources.Resources.Help_icon
+        Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
+        Me.HelpToolStripMenuItem1.ShortcutKeys = System.Windows.Forms.Keys.F1
+        Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(188, 22)
+        Me.HelpToolStripMenuItem1.Text = "Help"
         '
         'ToolStrip1
         '
@@ -827,4 +836,5 @@ Partial Class frmMain
     Friend WithEvents ToolStripSeparator16 As ToolStripSeparator
     Friend WithEvents OpenPlainTextEditorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents HelpToolStripMenuItem1 As ToolStripMenuItem
 End Class

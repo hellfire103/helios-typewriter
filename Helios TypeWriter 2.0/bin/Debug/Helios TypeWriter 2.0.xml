@@ -102,6 +102,11 @@ Helios TypeWriter 2.0
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.Help_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Helios_TypeWriter_2._0.My.Resources.Resources.icon">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
