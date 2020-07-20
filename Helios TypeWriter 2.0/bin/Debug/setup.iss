@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Helios TypeWriter"
-#define MyAppVersion "2.0a"
+#define MyAppVersion "2.0c"
 #define MyAppPublisher "SlateTech"
 #define MyAppURL "https://github.com/Slate-Technologies/helios-typewriter"
 #define MyAppExeName "typewritersetup.exe"
@@ -63,6 +63,7 @@ Source: "G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\bin\Debug\H
 Source: "G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\bin\Debug\Helios TypeWriter 2.0.exe.config"; DestDir: "{app}"; Flags: ignoreversion
 Source: "G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\bin\Debug\Helios TypeWriter 2.0.pdb"; DestDir: "{app}"; Flags: ignoreversion
 Source: "G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\bin\Debug\Helios TypeWriter 2.0.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "G:\Helios Suite\Helios TypeWriter 2.0\Helios TypeWriter 2.0\bin\Debug\help\*"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

@@ -188,6 +188,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\Help-icon.png" />
     <None Include="Resources\icon.png" />
     <None Include="Resources\about.png" />
     <None Include="Resources\page.gif" />
