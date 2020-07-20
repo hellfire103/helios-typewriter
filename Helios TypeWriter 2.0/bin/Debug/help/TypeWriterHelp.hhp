@@ -1,0 +1,36 @@
+[OPTIONS]
+TITLE=YourProject
+Full-text search=Yes
+Display compile notes=YES
+Display compile progress=YES
+Compatibility=1.1
+Default Window=Main
+Language=0x409 English (United States)
+Default Font=Arial,8,0
+Compiled file=typewriterhelp.chm
+Error Log file=typewriterhelp.log
+Contents file=typewriterhelp.hhc
+Index File=typewriterhelp.hhk
+Default Topic=diyguide.html
+
+[FILES]
+introduction.html
+fonts.html
+colours.html
+oleobjects.html
+images.html
+tables.html
+submittingissues.html
+diyguide.html
+
+
+[WINDOWS]
+Main="Main","typewriterhelp.hhc","typewriterhelp.hhk","","", ,,,,0x061520,200, 0x00304E, [9, 9, 566, 600]  , 0x307e, , , , , , , , 0
+Popup="Popup","typewriterhelp.hhc","typewriterhelp.hhk","","", ,,,,0x061520,200, 0x00304E, [9, 9, 566, 600]  , 0x307e, , , , , , , , 0
+
+
+[MAP]
+#include typewriterhelp.h
+
+[TEXT POPUPS]
+CSHelp.txt

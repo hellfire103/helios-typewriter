@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="ExWindow Styles" value="0x800225">
+<param name="Window Styles" value="0x800225">
+</OBJECT>
+<UL>
+<LI>	<OBJECT type="text/sitemap">	<PARAM name="Name" value="Introduction">	<PARAM name="Local" value="introduction.html">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+<LI>	<OBJECT type="text/sitemap">	<param name="Name" value="Formatting">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+<UL>
+<LI>	<OBJECT type="text/sitemap">	<PARAM name="Name" value="Fonts">	<PARAM name="Local" value="fonts.html">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+<LI>	<OBJECT type="text/sitemap">	<PARAM name="Name" value="Colours">	<PARAM name="Local" value="colours.html">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+</UL>
+<LI>	<OBJECT type="text/sitemap">	<param name="Name" value="Media">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+<UL>
+<LI>	<OBJECT type="text/sitemap">	<PARAM name="Name" value="OLE Objects">	<PARAM name="Local" value="oleobjects.html">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+<LI>	<OBJECT type="text/sitemap">	<PARAM name="Name" value="Images">	<PARAM name="Local" value="images.html">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+<LI>	<OBJECT type="text/sitemap">	<PARAM name="Name" value="Tables">	<PARAM name="Local" value="tables.html">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+</UL>
+<LI>	<OBJECT type="text/sitemap">	<param name="Name" value="Errors">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+<UL>
+<LI>	<OBJECT type="text/sitemap">	<PARAM name="Name" value="Submitting Issues">	<PARAM name="Local" value="submittingissues.html">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+<LI>	<OBJECT type="text/sitemap">	<PARAM name="Name" value="DIY Guide">	<PARAM name="Local" value="diyguide.html">	<PARAM name="ImageNumber" value="0">	</OBJECT>
+
