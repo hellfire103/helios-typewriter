@@ -2,10 +2,10 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Helios TypeWriter"
-#define MyAppVersion "2.0"
+#define MyAppVersion "2.0a"
 #define MyAppPublisher "SlateTech"
 #define MyAppURL "https://github.com/Slate-Technologies/helios-typewriter"
-#define MyAppExeName "Helios TypeWriter 2.0.exe"
+#define MyAppExeName "typewritersetup.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
