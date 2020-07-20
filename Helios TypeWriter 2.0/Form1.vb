@@ -468,4 +468,9 @@ Public Class frmMain
     Private Sub OpenPlainTextEditorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OpenPlainTextEditorToolStripMenuItem.Click
         Process.Start("C:\Windows\System32\notepad.exe")
     End Sub
+
+    Private Sub HelpToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles HelpToolStripMenuItem1.Click
+        Dim appPath As String = Application.StartupPath()
+        Process.Start(appPath + "\help\TypeWriterHelp.chm")
+    End Sub
 End Class
