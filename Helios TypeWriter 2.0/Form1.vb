@@ -145,22 +145,61 @@ Public Class frmMain
     Private Sub AlignLeftToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlignLeftToolStripMenuItem.Click
         rtbEditor.SelectionAlignment = HorizontalAlignment.Left
         AlignLeftToolStripMenuItem.Checked = True
+        ToolStripButton15.Checked = True
         AlignCentreToolStripMenuItem.Checked = False
+        ToolStripButton16.Checked = False
         AlignRightToolStripMenuItem.Checked = False
+        ToolStripButton17.Checked = False
+    End Sub
+
+    Private Sub ToolStripButton15_Click(sender As Object, e As EventArgs) Handles ToolStripButton15.Click
+        rtbEditor.SelectionAlignment = HorizontalAlignment.Left
+        AlignLeftToolStripMenuItem.Checked = True
+        ToolStripButton15.Checked = True
+        AlignCentreToolStripMenuItem.Checked = False
+        ToolStripButton16.Checked = False
+        AlignRightToolStripMenuItem.Checked = False
+        ToolStripButton17.Checked = False
     End Sub
 
     Private Sub AlignCenterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlignCentreToolStripMenuItem.Click
         rtbEditor.SelectionAlignment = HorizontalAlignment.Center
         AlignLeftToolStripMenuItem.Checked = False
+        ToolStripButton15.Checked = False
         AlignCentreToolStripMenuItem.Checked = True
+        ToolStripButton16.Checked = True
         AlignRightToolStripMenuItem.Checked = False
+        ToolStripButton17.Checked = False
+    End Sub
+
+    Private Sub ToolStripButton16_Click(sender As Object, e As EventArgs) Handles ToolStripButton16.Click
+        rtbEditor.SelectionAlignment = HorizontalAlignment.Center
+        AlignLeftToolStripMenuItem.Checked = False
+        ToolStripButton15.Checked = False
+        AlignCentreToolStripMenuItem.Checked = True
+        ToolStripButton16.Checked = True
+        AlignRightToolStripMenuItem.Checked = False
+        ToolStripButton17.Checked = False
     End Sub
 
     Private Sub AlignRightToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AlignRightToolStripMenuItem.Click
         rtbEditor.SelectionAlignment = HorizontalAlignment.Right
         AlignLeftToolStripMenuItem.Checked = False
+        ToolStripButton15.Checked = False
         AlignCentreToolStripMenuItem.Checked = False
+        ToolStripButton16.Checked = False
         AlignRightToolStripMenuItem.Checked = True
+        ToolStripButton17.Checked = True
+    End Sub
+
+    Private Sub ToolStripButton17_Click(sender As Object, e As EventArgs) Handles ToolStripButton17.Click
+        rtbEditor.SelectionAlignment = HorizontalAlignment.Right
+        AlignLeftToolStripMenuItem.Checked = False
+        ToolStripButton15.Checked = False
+        AlignCentreToolStripMenuItem.Checked = False
+        ToolStripButton16.Checked = False
+        AlignRightToolStripMenuItem.Checked = True
+        ToolStripButton17.Checked = True
     End Sub
 
     Private Sub BoldToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BoldToolStripMenuItem.Click
@@ -172,6 +211,7 @@ Public Class frmMain
                                                rtbEditor.SelectionFont.Style Or FontStyle.Bold)
         End If
         BoldToolStripMenuItem.Checked = rtbEditor.SelectionFont.Bold
+        ToolStripButton11.Checked = rtbEditor.SelectionFont.Bold
     End Sub
 
     Private Sub ItalicToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ItalicsToolStripMenuItem.Click
@@ -183,6 +223,7 @@ Public Class frmMain
                                                rtbEditor.SelectionFont.Style Or FontStyle.Italic)
         End If
         ItalicsToolStripMenuItem.Checked = rtbEditor.SelectionFont.Italic
+        ToolStripButton12.Checked = rtbEditor.SelectionFont.Italic
     End Sub
 
     Private Sub UnderlineToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UnderlineToolStripMenuItem.Click
@@ -194,6 +235,7 @@ Public Class frmMain
                                                rtbEditor.SelectionFont.Style Or FontStyle.Underline)
         End If
         UnderlineToolStripMenuItem.Checked = rtbEditor.SelectionFont.Underline
+        ToolStripButton13.Checked = rtbEditor.SelectionFont.Underline
     End Sub
 
     Private Sub BulletsListsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BulletsToolStripMenuItem.Click
@@ -233,26 +275,12 @@ Public Class frmMain
         UnderlineToolStripMenuItem.Checked = rtbEditor.SelectionFont.Underline
         BulletsToolStripMenuItem.Checked = rtbEditor.SelectionBullet
 
-        ' Menu Items To Affect Toolstrip Items
-
-        BoldToolStripMenuItem.Checked = ToolStripButton11.Checked
-        ItalicsToolStripMenuItem.Checked = ToolStripButton12.Checked
-        UnderlineToolStripMenuItem.Checked = ToolStripButton13.Checked
-        BulletsToolStripMenuItem.Checked = ToolStripButton14.Checked
-
         ' Toolstrip Items To Affect Text
 
         ToolStripButton11.Checked = rtbEditor.SelectionFont.Bold
         ToolStripButton12.Checked = rtbEditor.SelectionFont.Italic
         ToolStripButton13.Checked = rtbEditor.SelectionFont.Underline
         ToolStripButton14.Checked = rtbEditor.SelectionBullet
-
-        ' Toolstrip Items To Affect Menu Items
-
-        ToolStripButton11.Checked = BoldToolStripMenuItem.Checked
-        ToolStripButton12.Checked = ItalicsToolStripMenuItem.Checked
-        ToolStripButton13.Checked = UnderlineToolStripMenuItem.Checked
-        ToolStripButton14.Checked = BulletsToolStripMenuItem.Checked
     End Sub
 
     Private Sub ToolStripSplitButton1_ButtonClick(sender As Object, e As EventArgs)

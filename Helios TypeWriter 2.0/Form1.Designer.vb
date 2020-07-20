@@ -30,6 +30,8 @@ Partial Class frmMain
         Me.OpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator16 = New System.Windows.Forms.ToolStripSeparator()
+        Me.OpenPlainTextEditorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.PrintToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PrintPreviewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PageSetupToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -102,8 +104,6 @@ Partial Class frmMain
         Me.SelectAllToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TimeDateToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.rtbEditor = New Helios_TypeWriter_2._0.RichTextBoxPrint()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.OpenPlainTextEditorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.ContextMenuStrip1.SuspendLayout()
@@ -153,6 +153,18 @@ Partial Class frmMain
         '
         Me.ToolStripSeparator16.Name = "ToolStripSeparator16"
         Me.ToolStripSeparator16.Size = New System.Drawing.Size(187, 6)
+        '
+        'OpenPlainTextEditorToolStripMenuItem
+        '
+        Me.OpenPlainTextEditorToolStripMenuItem.Image = Global.Helios_TypeWriter_2._0.My.Resources.Resources.icon
+        Me.OpenPlainTextEditorToolStripMenuItem.Name = "OpenPlainTextEditorToolStripMenuItem"
+        Me.OpenPlainTextEditorToolStripMenuItem.Size = New System.Drawing.Size(190, 22)
+        Me.OpenPlainTextEditorToolStripMenuItem.Text = "Open Plain Text Editor"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(187, 6)
         '
         'PrintToolStripMenuItem
         '
@@ -592,6 +604,7 @@ Partial Class frmMain
         Me.ToolStripButton15.Name = "ToolStripButton15"
         Me.ToolStripButton15.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton15.Text = "ToolStripButton15"
+        Me.ToolStripButton15.ToolTipText = "Align Left"
         '
         'ToolStripButton16
         '
@@ -601,6 +614,7 @@ Partial Class frmMain
         Me.ToolStripButton16.Name = "ToolStripButton16"
         Me.ToolStripButton16.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton16.Text = "ToolStripButton16"
+        Me.ToolStripButton16.ToolTipText = "Align Centre"
         '
         'ToolStripButton17
         '
@@ -610,6 +624,7 @@ Partial Class frmMain
         Me.ToolStripButton17.Name = "ToolStripButton17"
         Me.ToolStripButton17.Size = New System.Drawing.Size(23, 22)
         Me.ToolStripButton17.Text = "ToolStripButton17"
+        Me.ToolStripButton17.ToolTipText = "Align Right"
         '
         'ToolStripSeparator11
         '
@@ -710,18 +725,6 @@ Partial Class frmMain
         Me.rtbEditor.Size = New System.Drawing.Size(800, 398)
         Me.rtbEditor.TabIndex = 2
         Me.rtbEditor.Text = ""
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(187, 6)
-        '
-        'OpenPlainTextEditorToolStripMenuItem
-        '
-        Me.OpenPlainTextEditorToolStripMenuItem.Image = Global.Helios_TypeWriter_2._0.My.Resources.Resources.icon
-        Me.OpenPlainTextEditorToolStripMenuItem.Name = "OpenPlainTextEditorToolStripMenuItem"
-        Me.OpenPlainTextEditorToolStripMenuItem.Size = New System.Drawing.Size(190, 22)
-        Me.OpenPlainTextEditorToolStripMenuItem.Text = "Open Plain Text Editor"
         '
         'frmMain
         '
